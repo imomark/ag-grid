@@ -1,0 +1,18 @@
+[
+  {
+    "type": "MYSQL",
+    "database": "grid",
+    "username": "root",
+    "password": "omar123",
+    "driver": "com.mysql.cj.jdbc.Driver",
+    "url": "jdbc:mysql://localhost:3306/grid"
+  },
+  {
+    "type": "POSTGRES",
+    "database": "grid",
+    "username": "postgres",
+    "password": "omar123",
+    "driver": "org.postgresql.Driver",
+    "url": "jdbc:postgresql://localhost:5432/grid"
+  }
+]
