@@ -4,7 +4,7 @@ public class DBContextHolder {
 
     private static ThreadLocal<String> threadLocal = new ThreadLocal<>();
 
-    public static void setBranchContext(String dbType) {
+    public static void setDBContext(String dbType) {
         threadLocal.set(dbType);
     }
 
